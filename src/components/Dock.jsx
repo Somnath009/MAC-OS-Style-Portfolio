@@ -17,7 +17,7 @@ const Dock = ({windowsState, setWindowsState}) => {
         className='icon github'><img src="../public/github.svg" alt="" /></div>
 
         <div 
-        onClick={ () => window.open("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new", "_blank")}
+        onClick={ () => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=08paulsomnath@gmail.com", "_blank")}
         className='icon mail'><img src="../public/mail.svg" alt="" /></div>
 
 
