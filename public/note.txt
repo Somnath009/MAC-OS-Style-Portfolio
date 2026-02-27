@@ -1,0 +1,105 @@
+/**
+ * @file: profile.config.ts
+ * @author: Somnath
+ * @summary: A passionate web dev + AI learner building real-world projects.
+ */
+
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  languages: ["JavaScript", "Python"],
+  
+  frontend: [
+    "React.js",       // Learning & Building
+    "TailwindCSS",    // 90%
+    "HTML",           // 95%
+    "CSS",            // 90%
+  ],
+
+  backend: [
+    "Node.js",        // 80%
+    "Express.js",     // 75%
+    "MongoDB",        // 80%
+    "PostgreSQL",     // 60%
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Docker (Basic)",
+  ],
+
+  learning: [
+    "LangChain",
+    "Generative AI",
+    "RAG Systems",
+  ]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE / PROJECT LOG
+// --------------------------------------------------
+
+class ProjectHistory {
+  
+  /** * PROJECT 01
+   * Baby-Cursor CLI Tool
+   * @period 2024
+   * GitHub: github.com/Somnath009/Baby-Cursor
+   */
+  public async BabyCursor(): Promise <Impact> {
+    const purpose = "Automated Project Setup CLI";
+    const tech = ["Node.js", "JavaScript"];
+    const features = ["CLI Prompts", "Quick Project Bootstrap"];
+
+    return { purpose, tech, features };
+  }
+
+  /** * PROJECT 02
+   * A-Basic-Auth-System
+   * @period 2024
+   * GitHub: github.com/Somnath009/A-Basic-Auth-System
+   */
+  public AuthSystem(): void {
+    this.description = "User Registration & Login System";
+    this.stack = ["Node.js", "Express.js", "MongoDB"];
+    this.core = "Authentication Flow";
+  }
+
+  /** * PROJECT 03
+   * Calculator App
+   * @period 2023
+   * GitHub: github.com/Somnath009/Calculator
+   */
+  public Calculator(): void {
+    this.description = "Responsive Calculator UI";
+    this.stack = ["HTML", "CSS", "JavaScript"];
+  }
+}
+
+// --------------------------------------------------
+// 3. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map <string, string> ([
+  ["Techno India University, Kolkata", "BCA (2022 - 2026) | CGPA: 7.23"]
+]);
+
+// --------------------------------------------------
+// 4. PROFESSIONAL STATUS
+// --------------------------------------------------
+
+export default new ProjectHistory();
+
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ somnath --status
+> Role: BCA 2nd Year • Web Dev + AI Learner
+> Open to: Internships / Remote Opportunities
+> Tech Focus: JavaScript • React • Tailwind • Node.js • AI & RAG
+> Loading Projects... [|||||||||||||||] 100%
+> Ready to Build 🚀
